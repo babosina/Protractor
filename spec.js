@@ -5,10 +5,11 @@
 // spec.js
 describe('Protractor Demo App', function() {
     it('should have a title', function() {
-        browser.get('http://juliemr.github.io/protractor-demo/');
-        //allows browser to open required page
 
-        expect(browser.getTitle()).toEqual('Super Calculator');
+        //allows browser to open required page
+        browser.get('http://juliemr.github.io/protractor-demo/');
+
         //comparing page title == 'Super Calculator'
+        expect(browser.getTitle()).toEqual('Super Calculator');
     });
 });
