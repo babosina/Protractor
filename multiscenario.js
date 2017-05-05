@@ -41,4 +41,14 @@ describe('Protractor Demo App', function() {
 
         expect(latestResult.getText()).toEqual('10');
     });
+
+    //and anoter test
+    it('should add 0 and -1', function() {
+        firstNumber.sendKeys(0);
+        secondNumber.sendKeys(-1);
+
+        goButton.click();
+
+        expect(latestResult.getText()).toEqual('-1');
+    });
 });

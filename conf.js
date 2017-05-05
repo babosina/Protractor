@@ -9,5 +9,17 @@ exports.config = {
     specs: [
     // 'spec.js',
     // 'adition.js',
-    'multiscenario.js']
+    'multiscenario.js'],
+
+    //whitch browser to be tested on
+    capabilities: {
+        browserName: 'chrome'
+    }
+
+    // multiCapabilities: [{
+    //     browserName: 'chrome'
+    // }, {
+    //     browserName: 'firefox'
+    // }]
+
 }
