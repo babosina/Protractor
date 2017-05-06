@@ -9,7 +9,8 @@ exports.config = {
     specs: [
     // 'spec.js',
     // 'adition.js',
-    'multiscenario.js'],
+    // 'multiscenario.js',
+    'listOfElements.js'],
 
     //whitch browser to be tested on
     capabilities: {
